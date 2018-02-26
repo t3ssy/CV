@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="Leonora Martinez">
+    <meta name="description" content="Hoja de Vida de Leonora Martinez">
+    <meta name="keywords" content="hoja de vida, curriculum vitae, resumen curricular, leonora, alejandra, martinez, osorio">
+    <title>Hoja de Vida_Educación</title>
+  </head>
+  <body>
+    <header>
+      <h1><img src="Images/Logo_LM_Azul.png" Alt="Logo_personal" height="100px" align="center" style="margin:5px 20px 0px 5px">Hoja de Vida</h1>
+      <h2>Datos Personales</h2>
+      <h3>Nombres: Leonora Alejandra</h3>
+      <h3>Apellidos: Martínez Osorio</h3>
+      <h3>Fecha de Nacimiento: 19 de Agosto de 1972</h3>
+      <h3>Ciudad de Nacimiento: Santiago de Chile</h3>
+    </header>
+    <nav>
+      <p>
+        <h2>Enlaces de Menú</h2>
+        <a href="index.html">Página Principal</a>  │  <a href="experiencia.html">Experiencia</a>
+      </p>
+    </nav>
+  <h2>Educación</h2>
+  <table border="1" cellpadding="10px">
+    <thead>
+      <tr align="center">
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr align="center">
+        <td>1998-2005</td>
+        <td>UNEXPO</td>
+        <td>Puerto Ordaz-Venezuela</td>
+        <td>Si</td>
+      </tr>
+      <tr align="center">
+        <td>2006</td>
+        <td>INCE</td>
+        <td>Puerto Ordaz-Venezuela</td>
+        <td>Si</td>
+      </tr>
+      <tr align="center">
+        <td>2006</td>
+        <td>INSTITUTO DEL PETRÓLEO</td>
+        <td>Puerto Ordaz-Venezuela</td>
+        <td>Si</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Agregar Estudios</h3>
+  <form action="index.html" method="post" autocomplete="on" name="Agregar Estudios">
+    <p>
+      <label for="year">Año:</label>
+      <select name="Año" value="1">
+        <option value="1">2017</option>
+        <option value="2">2016</option>
+        <option value="3">2015</option>
+        <option value="4">2014</option>
+        <option value="5">2013</option>
+        <option value="6">2012</option>
+        <option value="7">2011</option>
+        <option value="8">2010</option>
+        <option value="9">2009</option>
+        <option value="10">2008</option>
+        <option value="11">2007</option>
+        <option value="12">2006</option>
+      </select>
+    </p>
+    <p>
+     <label for="institution">Institución:</label>
+     <input type="text" name="institution" required>
+    </p>
+    <p>
+     <label for="place">Lugar:</label>
+     <textarea name="place" rows="3" cols="60"></textarea>
+    </p>
+    <p>
+     <label for="culminate">¿Culminó?</label>
+     <input type="radio" name="culminate" value="1">Si
+     <input type="radio" name="culminate" value="2">No
+    </p>
+    <input type="submit" value="Enviar">
+   </form>
+   <footer>
+     <p>e-mail:leonoraamartinez@hotmail.com │ Teléfono: 2 2956 4633 │ Comuna de Colina, Santiago de Chile, RM │ <a href="https://www.linkedin.com/in/leonora-alejandra-martínez-osorio-b57264138" target="_blank">Linkedin</a></p>
+   </footer>
+  </body>
+</html>
